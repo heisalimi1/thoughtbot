@@ -17,7 +17,7 @@ nav{
     padding: 0 20px;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 .navbar{
     /* background-color: blue; */
@@ -25,9 +25,9 @@ nav{
     gap: 30px;
     margin-right: 250px;
     /* color: white; */
-    font-size: 1rem;
-    width: 70%;
-    border: 1px solid;
+    font-size: 1.2rem;
+    width: 95%;
+    /* border: 1px solid; */
     justify-content: center;
     align-items: center;
 
@@ -45,12 +45,12 @@ nav{
     width: 40%;
 }
 
-button{
+nav button{
     background-color: #E03131;
     color: white;
     padding: 25px;
     border-radius: 30px;
-    width: 15%;
+    width: 35%;
     margin-top: 15px;
     font-size: 1rem;
     height: 16px;
@@ -125,4 +125,33 @@ button{
 .box a:hover{
     color: yellow;
     text-decoration: none;
+}
+
+.button{
+    display: flex;
+    margin-top: 30px;
+    gap: 16px;
+    /* border: 1px solid; */
+}
+.button button{
+   background-color: #E03131;
+    color: white;
+    padding: 25px;
+    border-radius: 30px;
+    width: 15%;
+    margin-top: 15px;
+    font-size: 1rem;
+    height: 16px;
+    padding: auto;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h{
+    margin-top: 50px;
+}
+.box p{
+    margin-top: 20px;
 }
